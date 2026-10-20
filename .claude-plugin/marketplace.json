@@ -1,0 +1,22 @@
+{
+  "name": "angelobaricante",
+  "owner": {
+    "name": "Angelo \"Elo\" Baricante",
+    "url": "https://github.com/angelobaricante"
+  },
+  "description": "Elo's agent skills, as an installable plugin.",
+  "plugins": [
+    {
+      "name": "elons-brain",
+      "source": "./",
+      "description": "Think and build like Elon Musk: first principles, the Algorithm, idiot index, and decision making applied to your actual problem.",
+      "category": "productivity",
+      "keywords": [
+        "first-principles",
+        "decision-making",
+        "architecture",
+        "elon-musk"
+      ]
+    }
+  ]
+}

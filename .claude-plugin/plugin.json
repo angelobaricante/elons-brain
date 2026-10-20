@@ -1,0 +1,24 @@
+{
+  "name": "elons-brain",
+  "version": "1.0.0",
+  "description": "Think and build like Elon Musk: first-principles reasoning, the five-step Algorithm (question, delete, simplify, accelerate, automate), idiot-index cost thinking, and go-to-the-problem decision making.",
+  "author": {
+    "name": "Angelo \"Elo\" Baricante",
+    "url": "https://github.com/angelobaricante"
+  },
+  "homepage": "https://github.com/angelobaricante/elons-brain",
+  "repository": "https://github.com/angelobaricante/elons-brain",
+  "license": "MIT",
+  "keywords": [
+    "first-principles",
+    "decision-making",
+    "architecture",
+    "product",
+    "elon-musk",
+    "thinking",
+    "skills"
+  ],
+  "skills": [
+    "./skills/thinking/elons-brain"
+  ]
+}
