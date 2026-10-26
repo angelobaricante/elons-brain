@@ -1,0 +1,156 @@
+{
+  "reviewed_on": "2026-10-26",
+  "sources": [
+    {
+      "id": "J01",
+      "title": "Make Something Wonderful commentary, version A",
+      "kind": "secondary-narration",
+      "verification": "supplied transcript inspected; not original audio or underlying book",
+      "attachment_id": "a8cb57a2-7f26-46e1-8b67-55180ea8ef0b",
+      "sha256": "178c80d9d5398a624ae7e409ace75e864d7a194632696754b3f8cdfdc6a5c071",
+      "independence_group": "make-something-wonderful",
+      "availability": "private supplied attachment; runtime cards include labeled paraphrases",
+      "locator_note": "one-based lines in first occurrence; timestamps belong to commentary, not original event"
+    },
+    {
+      "id": "J02",
+      "title": "The Presentation Secrets of Steve Jobs commentary",
+      "kind": "secondary-narration",
+      "verification": "supplied transcript inspected; not original audio or underlying book",
+      "attachment_id": "8ff17b69-5864-49c4-af4c-d8391efecfb4",
+      "sha256": "876d427c64ad5f7a5aeabf26d2d45223d1a3b5881d57f09a1a2f242e2f8425ee",
+      "independence_group": "attachment-2",
+      "availability": "private supplied attachment; runtime cards include labeled paraphrases",
+      "locator_note": "one-based lines in first occurrence; timestamps belong to commentary, not original event"
+    },
+    {
+      "id": "J03",
+      "title": "Make Something Wonderful commentary, version B",
+      "kind": "secondary-narration",
+      "verification": "supplied transcript inspected; not original audio or underlying book",
+      "attachment_id": "114e1829-d295-4ab3-a33a-46b6b01078ad",
+      "sha256": "8a1ccd7dddfdd4af7910189168022c95c41b2c39b2b4e333f9757ed9883d3042",
+      "independence_group": "make-something-wonderful",
+      "availability": "private supplied attachment; runtime cards include labeled paraphrases",
+      "locator_note": "one-based lines in first occurrence; timestamps belong to commentary, not original event"
+    },
+    {
+      "id": "J04",
+      "title": "Creative Selection commentary",
+      "kind": "secondary-narration",
+      "verification": "supplied transcript inspected; not original audio or underlying book",
+      "attachment_id": "756ecf80-7e3c-46ec-86fe-59385374ff23",
+      "sha256": "18eb7d81e597d22d31b8fe32512a1716b16b15477a9832c51ddf3072da489d73",
+      "independence_group": "attachment-4",
+      "availability": "private supplied attachment; runtime cards include labeled paraphrases",
+      "locator_note": "one-based lines in first occurrence; timestamps belong to commentary, not original event"
+    },
+    {
+      "id": "J05",
+      "title": "Becoming Steve Jobs commentary",
+      "kind": "secondary-narration",
+      "verification": "supplied transcript inspected; not original audio or underlying book",
+      "attachment_id": "a6143c33-77e6-406b-a5ef-d6f46cfd1cd3",
+      "sha256": "1a259dbaafc467ea8c7432deae926414765405de20f8a8ad12748b9ecdd0e8c8",
+      "independence_group": "attachment-5",
+      "availability": "private supplied attachment; runtime cards include labeled paraphrases",
+      "locator_note": "one-based lines in first occurrence; timestamps belong to commentary, not original event"
+    },
+    {
+      "id": "J06",
+      "title": "Insanely Simple commentary",
+      "kind": "secondary-narration",
+      "verification": "supplied transcript inspected; not original audio or underlying book",
+      "attachment_id": "0f888afa-b1a3-483d-87e7-3ff631df3d44",
+      "sha256": "7646b4ffa29d91c3d41a3d4be90c8aa427b0a65b7b8ad4592fc0ef194d1600d3",
+      "independence_group": "attachment-6",
+      "availability": "private supplied attachment; runtime cards include labeled paraphrases",
+      "locator_note": "one-based lines in first occurrence; timestamps belong to commentary, not original event"
+    },
+    {
+      "id": "J07",
+      "title": "1985 Playboy interview commentary, with later material in preamble",
+      "kind": "secondary-narration",
+      "verification": "supplied transcript inspected; not original audio or underlying book",
+      "attachment_id": "62c4dd4a-b052-4511-8bbe-691d088fe434",
+      "sha256": "c8fc8feba5b750a9cfd3fda22b15833aa02cb702ae38a9f78b592b310ebcc84a",
+      "independence_group": "attachment-7",
+      "availability": "private supplied attachment; runtime cards include labeled paraphrases",
+      "locator_note": "one-based lines in first occurrence; timestamps belong to commentary, not original event"
+    },
+    {
+      "id": "J08",
+      "title": "Steve Jobs in Exile commentary",
+      "kind": "secondary-narration",
+      "verification": "supplied transcript inspected; not original audio or underlying book",
+      "attachment_id": "64e4166c-d6d4-40c4-996c-de84285dfdc0",
+      "sha256": "08454d077f45e2e18f6965865a223f221fb962dbbde67f73a5f6c5915237908f",
+      "independence_group": "attachment-8",
+      "availability": "private supplied attachment; runtime cards include labeled paraphrases",
+      "locator_note": "one-based lines in first occurrence; timestamps belong to commentary, not original event"
+    },
+    {
+      "id": "SJA",
+      "title": "Make Something Wonderful, Steve Jobs Archive",
+      "url": "https://book.stevejobsarchive.com/",
+      "kind": "edited-primary-collection",
+      "verification": "selected named passages inspected, not every narrated claim",
+      "locator": "Use named section and date supplied by the principle card; no invented anchors",
+      "independence_group": "jobs-original-documents"
+    },
+    {
+      "id": "AIPOD",
+      "title": "Apple Presents iPod, 2001-10-23",
+      "url": "https://www.apple.com/newsroom/2001/10/23Apple-Presents-iPod/",
+      "kind": "company-announcement",
+      "verification": "launch positioning and described behavior inspected; promotional outcome claims not independently measured",
+      "locator": "Opening product description and Auto-Sync section",
+      "independence_group": "ipod-2001-launch"
+    },
+    {
+      "id": "ASAFARI",
+      "title": "Apple Unveils Safari, 2003-01-07",
+      "url": "https://www.apple.com/newsroom/2003/01/07Apple-Unveils-Safari/",
+      "kind": "company-announcement",
+      "verification": "public speed emphasis inspected; benchmarks not independently reproduced",
+      "locator": "Opening paragraphs and Jobs quotation about speed",
+      "independence_group": "safari-2003-launch"
+    },
+    {
+      "id": "STANFORD",
+      "title": "Jobs prepared commencement address, 2005-06-12",
+      "url": "https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says",
+      "kind": "prepared-primary-speech",
+      "verification": "retrospective failure-and-return account inspected",
+      "locator": "Second story, love and loss",
+      "independence_group": "jobs-2005-commencement"
+    },
+    {
+      "id": "MS1997",
+      "title": "Microsoft and Apple agreement announcement, 1997-08-06",
+      "url": "https://news.microsoft.com/source/1997/08/06/microsoft-and-apple-affirm-commitment-to-build-next-generation-software-for-macintosh/",
+      "kind": "company-announcement",
+      "verification": "agreement terms inspected; private negotiation process not verified",
+      "locator": "Agreement terms, investment, browser, patent, and Java provisions",
+      "independence_group": "apple-microsoft-1997-agreement"
+    },
+    {
+      "id": "MHF",
+      "title": "Elon Musk oral history, The Henry Ford, interviewed 2008-06-26",
+      "url": "https://www.thehenryford.org/docs/thehenryfordlibraries/innovator-transcripts/transcript_musk_full-length5a30f6547bde445e8119d53fb454b300.pdf?sfvrsn=f4eeb20a_1",
+      "kind": "primary-interview-transcript",
+      "verification": "selected attributed answers inspected",
+      "locator": "Printed pages and interview timecodes on principle cards (PDF index is printed page minus one)",
+      "independence_group": "musk-hurd-2008"
+    },
+    {
+      "id": "MEA",
+      "title": "Starbase tour and interview with Elon Musk, Everyday Astronaut, 2021-08-11",
+      "url": "https://everydayastronaut.com/starbase-tour-and-interview-with-elon-musk/",
+      "kind": "interviewer-team-summary",
+      "verification": "published account inspected; exact video wording not transcribed in this review",
+      "locator": "Interview Part 3, Musk\u2019s Engineering Philosophy, ordered list and chief engineer paragraph",
+      "independence_group": "musk-dodd-2021"
+    }
+  ]
+}

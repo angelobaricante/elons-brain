@@ -7,15 +7,16 @@
   "description": "Elo's agent skills, as an installable plugin.",
   "plugins": [
     {
-      "name": "elons-brain",
+      "name": "jobs-musk-brain",
       "source": "./",
-      "description": "Think and build like Elon Musk: first principles, the Algorithm, idiot index, and decision making applied to your actual problem.",
+      "description": "Combine documented Jobs and Musk principles with project evidence for product, engineering, hiring, leadership, and presentations.",
       "category": "productivity",
       "keywords": [
-        "first-principles",
+        "steve-jobs",
+        "elon-musk",
         "decision-making",
-        "architecture",
-        "elon-musk"
+        "product-strategy",
+        "evidence"
       ]
     }
   ]

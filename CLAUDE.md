@@ -11,3 +11,5 @@ Every `SKILL.md` is either user-invoked (`disable-model-invocation: true` in fro
 `.claude-plugin/marketplace.json` is the repo's own marketplace. Codex and Copilot install from it to get automatic updates. Run `claude plugin validate .` after touching either manifest. Bump `version` in `plugin.json` on every change that should reach installed users; managed installs only reinstall when that field changes.
 
 Install commands in `README.md` are the single source of truth for install wording. Change them there, then propagate anywhere else they appear.
+
+For changes to founder claims or the combined decision process, read `docs/ARCHITECTURE.md` and the affected principle cards first. Keep attribution, operational interpretation, and project evidence distinct. Run `python3 scripts/validate.py` after package edits; behavioral evaluation instructions live with the skill under `evaluations/`.

@@ -1,24 +1,23 @@
 {
-  "name": "elons-brain",
-  "version": "1.0.0",
-  "description": "Think and build like Elon Musk: first-principles reasoning, the five-step Algorithm (question, delete, simplify, accelerate, automate), idiot-index cost thinking, and go-to-the-problem decision making.",
+  "name": "jobs-musk-brain",
+  "version": "2.0.1",
+  "description": "Source-grounded Steve Jobs and Elon Musk principles for product, engineering, hiring, leadership, and presentations, with traceable evidence and explicit assumptions.",
   "author": {
     "name": "Angelo \"Elo\" Baricante",
     "url": "https://github.com/angelobaricante"
   },
-  "homepage": "https://github.com/angelobaricante/elons-brain",
-  "repository": "https://github.com/angelobaricante/elons-brain",
+  "homepage": "https://github.com/angelobaricante/jobs-musk-brain",
+  "repository": "https://github.com/angelobaricante/jobs-musk-brain",
   "license": "MIT",
   "keywords": [
-    "first-principles",
-    "decision-making",
-    "architecture",
-    "product",
+    "steve-jobs",
     "elon-musk",
-    "thinking",
-    "skills"
+    "product-strategy",
+    "engineering",
+    "decision-making",
+    "evidence"
   ],
   "skills": [
-    "./skills/thinking/elons-brain"
+    "./skills/thinking/jobs-musk-brain"
   ]
 }

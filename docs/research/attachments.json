@@ -1,0 +1,98 @@
+[
+  {
+    "id": "J01",
+    "attachment_id": "a8cb57a2-7f26-46e1-8b67-55180ea8ef0b",
+    "original_path": "/Users/angelobaricante/.codex/attachments/a8cb57a2-7f26-46e1-8b67-55180ea8ef0b/Pasted text.txt",
+    "sha256": "178c80d9d5398a624ae7e409ace75e864d7a194632696754b3f8cdfdc6a5c071",
+    "bytes": 299141,
+    "lines": 2374,
+    "exact_repeated_halves": true,
+    "unique_prefix_lines": 1187,
+    "type": "user-supplied narrated transcript; attribution requires passage-level review",
+    "independence_group": "make-something-wonderful"
+  },
+  {
+    "id": "J02",
+    "attachment_id": "8ff17b69-5864-49c4-af4c-d8391efecfb4",
+    "original_path": "/Users/angelobaricante/.codex/attachments/8ff17b69-5864-49c4-af4c-d8391efecfb4/Pasted text.txt",
+    "sha256": "876d427c64ad5f7a5aeabf26d2d45223d1a3b5881d57f09a1a2f242e2f8425ee",
+    "bytes": 110705,
+    "lines": 914,
+    "exact_repeated_halves": true,
+    "unique_prefix_lines": 457,
+    "type": "user-supplied narrated transcript; attribution requires passage-level review",
+    "independence_group": "attachment-2"
+  },
+  {
+    "id": "J03",
+    "attachment_id": "114e1829-d295-4ab3-a33a-46b6b01078ad",
+    "original_path": "/Users/angelobaricante/.codex/attachments/114e1829-d295-4ab3-a33a-46b6b01078ad/Pasted text.txt",
+    "sha256": "8a1ccd7dddfdd4af7910189168022c95c41b2c39b2b4e333f9757ed9883d3042",
+    "bytes": 308703,
+    "lines": 2410,
+    "exact_repeated_halves": true,
+    "unique_prefix_lines": 1205,
+    "type": "user-supplied narrated transcript; attribution requires passage-level review",
+    "independence_group": "make-something-wonderful"
+  },
+  {
+    "id": "J04",
+    "attachment_id": "756ecf80-7e3c-46ec-86fe-59385374ff23",
+    "original_path": "/Users/angelobaricante/.codex/attachments/756ecf80-7e3c-46ec-86fe-59385374ff23/Pasted text.txt",
+    "sha256": "18eb7d81e597d22d31b8fe32512a1716b16b15477a9832c51ddf3072da489d73",
+    "bytes": 92725,
+    "lines": 806,
+    "exact_repeated_halves": true,
+    "unique_prefix_lines": 403,
+    "type": "user-supplied narrated transcript; attribution requires passage-level review",
+    "independence_group": "attachment-4"
+  },
+  {
+    "id": "J05",
+    "attachment_id": "a6143c33-77e6-406b-a5ef-d6f46cfd1cd3",
+    "original_path": "/Users/angelobaricante/.codex/attachments/a6143c33-77e6-406b-a5ef-d6f46cfd1cd3/Pasted text.txt",
+    "sha256": "1a259dbaafc467ea8c7432deae926414765405de20f8a8ad12748b9ecdd0e8c8",
+    "bytes": 205845,
+    "lines": 1674,
+    "exact_repeated_halves": true,
+    "unique_prefix_lines": 837,
+    "type": "user-supplied narrated transcript; attribution requires passage-level review",
+    "independence_group": "attachment-5"
+  },
+  {
+    "id": "J06",
+    "attachment_id": "0f888afa-b1a3-483d-87e7-3ff631df3d44",
+    "original_path": "/Users/angelobaricante/.codex/attachments/0f888afa-b1a3-483d-87e7-3ff631df3d44/Pasted text.txt",
+    "sha256": "7646b4ffa29d91c3d41a3d4be90c8aa427b0a65b7b8ad4592fc0ef194d1600d3",
+    "bytes": 127877,
+    "lines": 1028,
+    "exact_repeated_halves": true,
+    "unique_prefix_lines": 514,
+    "type": "user-supplied narrated transcript; attribution requires passage-level review",
+    "independence_group": "attachment-6"
+  },
+  {
+    "id": "J07",
+    "attachment_id": "62c4dd4a-b052-4511-8bbe-691d088fe434",
+    "original_path": "/Users/angelobaricante/.codex/attachments/62c4dd4a-b052-4511-8bbe-691d088fe434/Pasted text.txt",
+    "sha256": "c8fc8feba5b750a9cfd3fda22b15833aa02cb702ae38a9f78b592b310ebcc84a",
+    "bytes": 53993,
+    "lines": 329,
+    "exact_repeated_halves": false,
+    "unique_prefix_lines": 329,
+    "type": "user-supplied narrated transcript; attribution requires passage-level review",
+    "independence_group": "attachment-7"
+  },
+  {
+    "id": "J08",
+    "attachment_id": "64e4166c-d6d4-40c4-996c-de84285dfdc0",
+    "original_path": "/Users/angelobaricante/.codex/attachments/64e4166c-d6d4-40c4-996c-de84285dfdc0/Pasted text.txt",
+    "sha256": "08454d077f45e2e18f6965865a223f221fb962dbbde67f73a5f6c5915237908f",
+    "bytes": 129107,
+    "lines": 1048,
+    "exact_repeated_halves": true,
+    "unique_prefix_lines": 524,
+    "type": "user-supplied narrated transcript; attribution requires passage-level review",
+    "independence_group": "attachment-8"
+  }
+]
