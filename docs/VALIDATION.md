@@ -1,6 +1,6 @@
 # Validation record
 
-Date: 2026-10-26. Manifest version: 2.0.1 (renamed package). GitHub repository renamed to `angelobaricante/jobs-musk-brain` at the user's request. This record accompanies the source update authorized for push. A repository-local discovery symlink points Codex at the current skill source.
+Date: 2026-10-26. Manifest version: 2.0.2 (clearer package description and usage documentation). GitHub repository renamed to `angelobaricante/jobs-musk-brain` at the user's request. This record accompanies the source update authorized for push. A repository-local discovery symlink points Codex at the current skill source.
 
 ## Performed
 

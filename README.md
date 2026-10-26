@@ -1,14 +1,67 @@
 # Jobs + Musk Brain
 
-A source-grounded reasoning skill combining documented ideas from Steve Jobs and Elon Musk for product strategy, feature engineering, hiring, leadership, and presentations.
+**Bring documented ideas from Steve Jobs and Elon Musk into your next product, engineering, or business decision.**
 
-It connects **source evidence → interpreted principle → project facts → recommendation → validation**. Founder statements, narrated recollections, our synthesis, and predictions stay distinct. Facts inform a decision; uncertain outcomes remain hypotheses to test.
+Jobs + Musk Brain is a skill for your AI assistant. Give it a problem, your constraints, and whatever evidence you have. It helps you sharpen the goal, challenge assumptions, simplify the plan, and choose a concrete next step.
 
-One plugin, one skill: `jobs-musk-brain`. Reference cards and workflows are internal resources, not separate commands.
+It combines ideas about product experience, focus, first-principles reasoning, and execution. Its recommendations connect the founders' documented ideas to **your actual situation**, with sources and assumptions made visible.
 
-## Installation (30-second setup)
+**One plugin. One skill. One entry point: `jobs-musk-brain`.**
 
-A plugin updates itself. [skills.sh](https://skills.sh/angelobaricante/jobs-musk-brain) copies editable files into your project, and you update them by hand. Pick one per agent, because installing both gives you the skill twice.
+## What can I use it for?
+
+| Your situation | What to ask |
+| --- | --- |
+| Too many feature ideas | Which feature should we build first, and what should we leave out? |
+| A confusing product experience | How can we make the core task easier to understand and complete? |
+| A costly or complicated system | Which requirements are necessary, and where is the real bottleneck? |
+| A hiring or leadership decision | What evidence do we need, and how do we make room for honest feedback? |
+| A launch or presentation | What is the central customer benefit, and how can we demonstrate it honestly? |
+
+## Try it
+
+After installing, use this in Codex:
+
+```text
+$jobs-musk-brain Review my product idea. Help me identify the core user
+problem, challenge unnecessary features, and choose the smallest useful
+experiment. Separate facts from assumptions and cite the principles you use.
+```
+
+Or bring it a specific task:
+
+```text
+$jobs-musk-brain We have two engineers and two weeks. Review this feature
+plan, recommend what to cut, and define how we will know the result works.
+```
+
+Share your goal, intended users, current plan or repository, constraints, and any research or measurements. If you do not have evidence yet, the skill should identify what to learn next.
+
+In **ChatGPT**, type `@` and select the installed **Jobs + Musk Brain** skill. In **Codex**, use a `$` skill mention; its CLI and IDE also provide `/skills` for selection. These are different ways to reach the same skill. [Official invocation guidance](https://learn.chatgpt.com/docs/build-skills).
+
+## What should I expect back?
+
+A recommendation you can inspect and act on:
+
+1. **A clear goal:** what you are trying to achieve and the constraints that matter.
+2. **Relevant principles:** which documented ideas apply, with source links.
+3. **Reasoning:** how those ideas connect to your evidence, alternatives, and tradeoffs.
+4. **A next step:** what to build, change, measure, or test—and what would change the decision.
+
+Small questions get short answers. Feature work can produce a brief with scope and acceptance checks. The references and workflows live inside the skill; you do not need separate Jobs, Musk, hiring, or presentation commands.
+
+## Install
+
+Choose one installation route per host to avoid duplicate copies.
+
+<details>
+<summary><strong>ChatGPT</strong></summary>
+
+Use an installed private or workspace copy of the plugin, then select **Jobs + Musk Brain** with `@`. On its plugin page, select the install/plus button if it is not already installed, then start a new chat.
+
+A Codex CLI installation does not by itself install a plugin in your ChatGPT account. This repository is source code, not a public ChatGPT directory listing. For a private copy, package the skill and its references using the [OpenAI plugin packaging guide](https://developers.openai.com/plugins/build/plugins) and your account's supported creation/import flow. Workspace administrators can also import a GitHub marketplace. See [installation guidance](https://learn.chatgpt.com/docs/plugins).
+
+</details>
 
 <details>
 <summary><strong>Claude Code</strong></summary>
@@ -92,62 +145,45 @@ Provide the body of [`SKILL.md`](./skills/thinking/jobs-musk-brain/SKILL.md) tog
 
 </details>
 
-## What it does
+## Updating or migrating
 
-- Establishes a shared outcome, constraints, and evidence of success.
-- Selects relevant Jobs and Musk principle cards with traceable attribution.
-- Applies them to current project evidence and exposes consequential assumptions.
-- Produces one recommendation, its tradeoff, and an observable next test or acceptance check.
-- Supports product/feature work, cost and architecture reviews, hiring, leadership, and presentations.
+For Codex, refresh this marketplace and install the current package:
 
-The combined decision process is our synthesis. It does not claim either founder endorsed a modern feature, tool, or decision. A citation proves neither customer demand nor engineering correctness.
-
-## When to use it
-
-Ask for Jobs's approach, Musk's approach, their combined perspective, or a source-grounded review of product focus, experience, requirements, cost, or execution. In Codex, mention `$jobs-musk-brain`; in ChatGPT, type `@` and select the skill once installed. See [official invocation guidance](https://learn.chatgpt.com/docs/build-skills). Responses scale to the decision rather than following a fixed seven-part template.
-
-## One skill, one entry point
-
-```text
-$jobs-musk-brain Help me decide which feature to build next.
+```bash
+codex plugin marketplace upgrade angelobaricante
+codex plugin add jobs-musk-brain@angelobaricante
 ```
 
-Codex uses `$` skill mentions; its CLI and IDE also offer `/skills` for selection. ChatGPT uses `@` selection. The punctuation comes from the host, not a separate skill. Product, engineering, hiring, leadership, and presentation work all use this same entry point; there are no separate Jobs and Musk commands. See [official OpenAI guidance](https://learn.chatgpt.com/docs/build-skills).
+This project was previously named `elons-brain`. The repository and skill are now `jobs-musk-brain`. Existing installations under the old ID need migration; remove the old copy when moving over. If Codex reports that the `angelobaricante` marketplace already uses a different source, replace that registration with the repository URL above.
 
-This repository includes a `.agents/skills/jobs-musk-brain` symlink to the packaged skill for local Codex discovery. If the skill does not appear, restart Codex. In other projects, install the renamed package first. Remove an old `elons-brain` installation when migrating to avoid retaining both versions. The new ID is a deliberate breaking rename; an existing installation under the old ID should not be assumed to migrate automatically.
+Cloning this repo also exposes the skill through `.agents/skills/jobs-musk-brain` for local Codex discovery. Installing a second copy can produce duplicate entries. If a newly installed skill does not appear, restart the host. ChatGPT account copies and GitHub/Codex copies are managed separately.
 
-## Reference
+## How the evidence works
 
-### Thinking
+The skill includes **14 principle cards**. Each records a supported claim, its source, a proposed application, and its limits. Sources include the Steve Jobs Archive, Apple announcements, a Musk oral-history interview, an interviewer-team account, and supplied book-commentary transcripts. Narrated recollections stay labeled as such; repeated transcripts do not count as independent support.
 
-Reasoning frameworks for decisions, designs, and builds. See [skills/thinking](./skills/thinking/README.md).
+The combined decision process is this project's synthesis. It does not claim either founder endorsed your feature or modern technology choice. A historical statement can inform a decision; it cannot prove customer demand, predict success, or replace testing your implementation.
 
-**Model-invoked** (also user-reachable):
+## Explore the project
 
-- **[jobs-musk-brain](./skills/thinking/jobs-musk-brain/SKILL.md)**: A combined Jobs–Musk decision process backed by source cards and project evidence.
+- [Skill instructions](./skills/thinking/jobs-musk-brain/SKILL.md) — the single entry point.
+- [Principle cards](./skills/thinking/jobs-musk-brain/references/principles.md) and [source register](./skills/thinking/jobs-musk-brain/references/sources.json) — inspect the evidence.
+- [Workflows](./skills/thinking/jobs-musk-brain/references/workflows.md) — product, engineering, hiring, leadership, and presentations.
+- [Architecture](./docs/ARCHITECTURE.md) and [design decision](./docs/adr/0001-evidence-grounded-combined-brain.md) — understand the design.
+- [Research notes](./docs/research/) — source locators, attribution limits, and duplicate analysis.
+- [Thinking skills](./skills/thinking/README.md) — skill index.
 
-## Evidence and architecture
+## Validation and current status
 
-- [Architecture](./docs/ARCHITECTURE.md): responsibilities, evidence contract, tradeoffs, workflows, and release criteria.
-- [Principle cards](./skills/thinking/jobs-musk-brain/references/principles.md): 14 supported claims, applications, and limits.
-- [Source register](./skills/thinking/jobs-musk-brain/references/sources.json): public sources and supplied-transcript identities.
-- [Jobs research](./docs/research/): passage-level notes and duplicate assessment for all eight supplied attachments.
-- [Decision](./docs/adr/0001-evidence-grounded-combined-brain.md): why this remains one skill.
-
-Seven supplied files contain exact repeated halves; two versions cover the same underlying commentary. Several are narrated book discussions rather than direct Jobs interviews. Selected claims were checked against the Steve Jobs Archive, Apple announcements, and other primary records. Musk coverage currently comes from a primary oral-history transcript and the interviewer team's Starbase account. Verification is passage-specific, not a blanket endorsement of every historical anecdote.
-
-Original transcripts are not bundled. Their identities and hashes support maintenance; source availability and redistribution rights remain separate matters. The MIT license covers this repository's original instructions and adaptations, not third-party source works.
-
-## Validation
+Package checks and targeted source reviews have passed. **The 13 behavioral evaluation cases have not yet been run in fresh model sessions.** The skill's consistency and effectiveness have not been established by those structural checks. See the [validation record](./docs/VALIDATION.md) and [evaluation instructions](./skills/thinking/jobs-musk-brain/evaluations/README.md).
 
 ```bash
 python3 scripts/validate.py
-python3 scripts/validate.py --attachments  # optional: requires the original supplied files
 claude plugin validate .
 ```
 
-[Behavioral evaluation cases](./skills/thinking/jobs-musk-brain/evaluations/cases.json) cover attribution, uncertainty, feature reasoning, hiring, leadership, and presentations. See [evaluation instructions](./skills/thinking/jobs-musk-brain/evaluations/README.md). Structural validation does not establish model compliance; record fresh-session outputs before claiming behavioral validation.
+Maintainers with the original supplied files can additionally run `python3 scripts/validate.py --attachments` to check their hashes and duplication records.
 
 ## License
 
-MIT
+MIT for this repository's original instructions and adaptations. Third-party source works retain their own rights; the original supplied transcripts are not bundled.
